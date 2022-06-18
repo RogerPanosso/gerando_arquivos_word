@@ -1,0 +1,22 @@
+{
+	"name":"phpword/phpword",
+	"type":"projeto",
+	"description":"Gerando documentos Word(.docx)",
+	"author":{
+		"name":"Roger Panosso",
+		"email":"rogerninopa@gmail.com",
+		"especialidade":"Desenvolvimento Web"
+	},
+	"require":{
+		"php":">=7.4",
+		"phpoffice/phpword": "^0.18.3"
+	},
+	"autoload":{
+		"psr-4":{
+			"App\\":"App/"
+		}
+	},
+	"vendor-dir":{
+		"dir":"App"
+	}
+}
